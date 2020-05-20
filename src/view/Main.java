@@ -13,11 +13,13 @@ public class Main {
 		Grid g = new Grid();
 		double [] tempos = new double [14];
 		String [] carros = new String [14];
+		
 		int permissoesPista = 5;
 		Semaphore sPista = new Semaphore(permissoesPista);
+		
 		int menu = 0;
 		while(menu!=9) {
-		menu = Integer.parseInt(JOptionPane.showInputDialog("1-iniciar Threads\n2-Ver Grid\n9-finalizar"));
+		menu = Integer.parseInt(JOptionPane.showInputDialog("1-iniciar Treino\n2-Ver Grid\n9-finalizar"));
 		switch(menu) {
 		case 1:
 		for(int idEscuderia = 0; idEscuderia<7; idEscuderia++) {
