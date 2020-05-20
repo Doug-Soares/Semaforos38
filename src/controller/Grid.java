@@ -2,7 +2,7 @@ package controller;
 
 public class Grid {
 
-	public String [] largada(double [] tempo, String [] posicoes) {
+	public String [] largada() {
 		int k = 0;
 		double [] largada = new double [14];
 		String [] ordemLargada = new String [14];

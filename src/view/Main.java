@@ -11,7 +11,6 @@ public class Main {
 	
 	public static void main(String[] args) {
 		Grid g = new Grid();
-		double [] tempos = new double [14];
 		String [] carros = new String [14];
 		
 		int permissoesPista = 5;
@@ -30,7 +29,7 @@ public class Main {
 		}
 		break;
 		case 2:
-			carros = g.largada(tempos,carros);
+			carros = g.largada();
 			for (int i = 0; i < carros.length; i++) {
 				System.out.println(carros[i] + " é o "+(i+1)+"° a largar" );
 			}
