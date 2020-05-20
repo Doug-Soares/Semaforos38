@@ -81,7 +81,7 @@ public class ThreadCarro extends Thread {
 					e1.printStackTrace();
 				}
 			}
-			esc0 = false;
+			esc0 = true;
 		} else if (idEscuderia == 1) {
 			while (esc1 == true) {
 				try {

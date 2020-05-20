@@ -16,7 +16,7 @@ public class Grid {
 			}
 		}
 		for (int i = 0; i < 13; i++) {
-			for (int j = 0; j < 14; j++) {
+			for (int j = i; j < 14; j++) {
 				if(largada[i]>largada[j]) {
 				  auxCarro = ordemLargada[i];
 				  ordemLargada[i]=ordemLargada[j];
