@@ -48,7 +48,7 @@ public class ThreadCarro extends Thread {
 		System.out.printf("Carro %d da escuderia %d entrou na pista %n", numCarro, idEscuderia);
 		while (voltas < 3) {
 			voltas++;
-			double tempo = ((Math.random() * 2.5) + 1.5);
+			double tempo = ((Math.random() * 3.5) + 1.5);
 			try {
 				sleep((long) (tempo*300));
 			} catch (InterruptedException e) {
